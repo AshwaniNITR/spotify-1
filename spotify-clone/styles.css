@@ -1,0 +1,877 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+  
+body{
+    background-color: black;
+    color: white;
+}
+/* Width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #333; /* You can change the background color as per your theme */
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #555; /* You can change the handle color as per your theme */
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #777; /* You can change the hover color as per your theme */
+  }
+  
+  
+.plus-jakarta-sans-spotify {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+  }
+.main{
+    display: flex;
+    width:100%;
+    height:100vh;
+}
+.border{
+    border: 2px solid red;
+}
+.left{
+    padding-top: 10px;
+    width:30%; 
+    margin:3px;
+    height:65vh;
+    background-color: black;
+}
+.cmn{
+    width:10%;
+    display: flex;
+    gap: 10px; 
+    margin-left: 5%;
+    height:40%;
+} 
+.txt{
+    padding-top: 10%;
+}
+.logo{
+    height:15%;
+}
+.sub{
+    height:80%;
+    display: grid;
+    place-items: row;
+    padding-top: 4%;
+}
+.home{
+    height:30%;
+    background-color: #121212;
+    border-radius: 7px;
+    color:white;
+    padding:2% 5%;
+    font-size: 16px;
+    margin: 5px;
+}
+.filtered{
+    filter:invert(1);
+}
+.sub ul li{
+    list-style-type: none;
+    display: flex;
+    gap:10px;
+    padding:2% 5%;
+}
+.logo{
+    padding:2% 5%;
+}
+.srch{
+    opacity:0.7;
+}
+.srch:hover{
+   opacity:1;
+   cursor: pointer;
+}
+/* start of library */
+.library{
+    height:5%;
+    background-color: #121212;
+    border-radius: 7px 7px 0px 0px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 0px;
+    padding: 3% 9%;
+}
+.playlist{
+    filter: invert(0.7);
+}
+.playlist:hover{
+    filter: invert(1);
+}
+.library ul li{
+    list-style-type: none;
+    display: flex;
+    gap:10px;
+    padding-bottom: 0.2%;
+    opacity:0.7;
+}
+.library ul li:hover{
+    opacity:1;
+    cursor:pointer;
+}
+.lib{
+    padding-top: 1%;
+    width:95%;
+}
+.plussect{
+    width:8%;
+    height:5%;
+    padding-left: 2%;
+    padding-top: 1%;
+    border-radius: 100%;
+}
+.pl{
+    filter: invert(0.7);
+}
+.plussect:hover{
+    background-color: #242424;
+}
+.inlib{
+    height:28%;
+    margin:0px 5px 0px 5px;
+    background-color:  #121212;
+    overflow-y:  auto;
+}
+
+
+.crpl{
+    margin-left: 5px;
+    height:140px;
+    border-radius: 7px;
+    width:90%;
+    background-color: #242424;
+    padding-top:3%;
+    padding-left:7%;
+}
+.space{
+    width:100%;
+    height:10px;
+}
+.createplay{
+    background-color: white;
+    color:black;
+    text-align: center;
+    width:30%;
+    height:25%;
+    border-radius: 999px;
+    padding-top: 1.5%;
+}
+.createplay:hover{
+    width:32%;
+    height:27%;
+    cursor:pointer;
+}
+.pcast{
+    margin-left: 5px;
+    height:140px;
+    border-radius: 7px;
+    width:90%;
+    background-color: #242424;
+    padding-top:2%;
+    padding-left:7%;
+}
+.createplayb{
+    background-color: white;
+    color:black;
+    text-align: center;
+    width:35%;
+    height:24%;
+    border-radius: 999px;
+    padding-top: 2%;
+}
+.createplayb:hover{
+    width:38%;
+    height:27%;
+    cursor:pointer;
+}
+.footer{
+    height:60%;
+    background-color: #121212;
+    border-radius: 0px 0px 7px 7px;
+    margin-top: 0px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 0px;
+    padding-left: 9%;
+    padding-top: 3%;
+}
+.cm{
+    display:flex;
+    text-align: center;
+}
+.adds{
+    width:10px;
+}
+.legal{
+    width:5%;
+
+}
+.safety{
+    width:55%;
+}
+.p-policy{
+    width:40%;
+}
+.ho{
+    opacity: 0.7;
+}
+.ho:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.language{
+    width:100%;
+    height:58%;
+    display: flex;
+    align-items: end;
+    background-color: #121212;
+}
+.english{
+    font-size: 15px;
+    height:25%;
+    width:30%;
+    padding-left:5%;
+    padding-top:3%;
+    border:0.5px solid white;
+    border-radius: 999px;
+    display: flex;
+}
+.english svg{
+    filter: invert();
+}
+.lan{
+    padding-top: 2%;
+    padding-left: 5%;
+}
+.english:hover{
+    border:2px solid white;
+    font-weight: 800;
+    cursor:pointer;
+}
+/* right-side */
+.right{
+    margin: 3px;
+    width:70%;
+    padding-top: 0.6%;
+    height:90vh;
+}
+.right{
+    display:flex;
+}
+.right-contents{
+    margin: 5px;
+    width:100%;
+    background-color: #121212;
+    border-radius: 7px;
+    overflow-x: none;
+    overflow-y: auto;
+}
+.top-part{
+    width:100%;
+    height:8%;
+    display: flex;
+}
+.arrow-container{
+    display:flex;
+    width:73%;
+    padding-top: 1.5%;
+    padding-left: 2%;
+    height:6%;
+    gap:7px;
+}
+.partialfilter{
+    filter:invert(0.7);
+}
+.r{
+    padding-top: 1%;
+    padding-left: 1%;
+    width:25px;
+    height:25px;
+    border-radius: 50%;
+}
+.sign-up{
+    padding-top: 2%;
+   width:10%;
+   opacity: 0.7;
+}
+.log-in{
+    margin-top:1.5%;
+    padding-top: 0.5%;
+    padding-left: 1%;
+    width:10%;
+    border-radius:999px;
+    background-color: white;
+    color:black;
+}
+.sign-up:hover{
+    opacity:1;
+    cursor:pointer;
+}
+.log-in:hover{
+     font-weight: 800;
+    cursor:pointer;
+}
+.popular-artists{
+    width:100%;
+    height:46%;
+    background-color: #242424;
+}
+.top{
+    display:flex;
+    height:15%;
+}
+.artists{
+    padding-left:2%;
+    padding-top:1%;
+    font-weight: 800;
+    font-size: 20px;
+    width:93%;
+    height:100%;
+}
+.showmore{
+    opacity:0.7;
+    font-size: 14px;
+    padding-left:2%;
+    padding-top:1%;
+    width:7%;
+}
+.photos{
+    padding-left:2%;
+    padding-top:1%;
+    display:flex;
+    flex-wrap: wrap;
+    gap:50px;
+    overflow-y: auto;
+    width:100%;
+    height:70%;
+}
+.pritam{
+    height:100%;
+    width:15%;
+    position: relative;
+}
+.pritamp{
+    width:100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.pritam img{
+    border-radius: 50%;
+    width:100%;
+    object-fit: contain;
+}
+.pritam2{
+    height:100%;
+    width:13%;
+    position: relative;
+}
+.pritam2 img{
+    border-radius: 50%;
+    width:100%;
+    object-fit: contain;
+}
+.pritext{
+    padding-left:5px;
+}
+/* playbutton */
+.play-button{
+    position: relative;
+    left:60%;
+    top:-60px;
+    opacity: 0;
+    transition: all 1s ease-out;
+}
+.play-button:hover{
+    cursor: pointer;
+}
+.pritam:hover{
+    background-color: #151515;
+}
+.pritam2:hover{
+    background-color: #151515;
+}
+.play-button-2{
+    position: relative;
+    left:60%;
+    top:-60px;
+    opacity: 0;
+    transition: all 1s ease-out;
+   
+}
+.play-button-2:hover{
+    cursor: pointer;
+}
+.play-button-3{
+    position: relative;
+    left:65%;
+    top:-60px;
+    opacity: 0;
+    transition: all 1s ease-out;
+}
+.play-button-3:hover{
+    cursor: pointer;
+}
+/* 4 */
+.play-button-4{
+    position: relative;
+    left:60%;
+    top:-60px;
+    opacity: 0;
+    transition: all 1s ease-out;
+}
+.play-button-4:hover{
+    cursor: pointer;
+}
+.play-button-5{
+    position: relative;
+    left:65%;
+    top:-60px;
+    opacity: 0;
+    transition: all 1s ease-out;
+}
+.play-button-5:hover{
+    cursor: pointer;
+}
+.play-button-6{
+    position: relative;
+    left:65%;
+    top:-60px;
+    opacity: 0;
+    transition: all 1s ease-out;
+   
+}
+.play-button-6:hover{
+    cursor: pointer;
+}
+.play-button-7{
+    position: relative;
+    left:65%;
+    top:-60px;
+    opacity: 0;
+    transition: all 1s ease-out;
+   
+}
+.play-button-7:hover{
+    cursor: pointer;
+}
+.play-button-8{
+    position: relative;
+    left:65%;
+    top:-60px;
+    opacity: 0;
+    transition: all 1s ease-out;
+   
+}
+.play-button-8:hover{
+    cursor: pointer;
+}
+.play-button-9{
+    position: relative;
+    left:60%;
+    top:-60px;
+    opacity: 0;
+    transition: all 1s ease-out;
+   
+}
+.play-button-9:hover{
+    cursor: pointer;
+}
+.play-button-10{
+    position: relative;
+    left:60%;
+    top:-60px;
+    opacity: 0;
+    transition: all 1s ease-out;
+   
+}
+.play-button-10:hover{
+    cursor: pointer;
+}
+/* popular albums */
+.popular-albums{
+    width:100%;
+    height:46%;
+    background-color: #242424;
+    overflow-x: none;
+}
+.imagear{
+    background-image: url("https://i.scdn.co/image/ab67616d00001e025f3ede47954a93aa03efe5f9");
+    height:150px;
+    width:150px;
+    background-size: cover;
+    border-radius: 7px;
+}
+.pritampi{
+    width:150px;
+}
+.prita:hover{
+    background-color: #151515;
+}
+.play-button-albums{
+    position: relative;
+    left:60%;
+    top:-40%;
+    opacity: 0;
+    transition: all 1s ease-out;
+}
+.play-button-albums:hover{
+    cursor: pointer;
+}
+.play-button-albums-1{
+    position: relative;
+    left:60%;
+    top:-40%;
+    opacity: 0;
+    transition: all 1s ease-out;
+}
+.play-button-albums-1:hover{
+    cursor: pointer;
+}
+.play-button-albums-2{
+    position: relative;
+    left:60%;
+    top:-40%;
+    opacity: 0;
+    transition: all 1s ease-out;
+}
+.play-button-albums-2:hover{
+    cursor: pointer;
+}
+.play-button-albums-3{
+    position: relative;
+    left:60%;
+    top:-40%;
+    opacity: 0;
+    transition: all 1s ease-out;
+}
+.play-button-albums-3:hover{
+    cursor: pointer;
+}
+.play-button-albums-4{
+    position: relative;
+    left:60%;
+    top:-40%;
+    opacity: 0;
+    transition: all 1s ease-out;
+}
+.play-button-albums-4:hover{
+    cursor: pointer;
+}
+.play-button-albums-5{
+    position: relative;
+    left:60%;
+    top:-40%;
+    opacity: 0;
+    transition: all 1s ease-out;
+}
+.play-button-albums-5:hover{
+    cursor: pointer;
+}
+.play-button-albums-6{
+    position: relative;
+    left:60%;
+    top:-40%;
+    opacity: 0;
+    transition: all 1s ease-out;
+}
+.play-button-albums-6:hover{
+    cursor: pointer;
+}
+.play-button-albums-7{
+    position: relative;
+    left:60%;
+    top:-40%;
+    opacity: 0;
+    transition: all 1s ease-out;
+}
+.play-button-albums-7:hover{
+    cursor: pointer;
+}
+.showmore1{
+    opacity:0.7;
+    font-size: 14px;
+    padding-left:2%;
+    padding-top:1%;
+    width:7%;
+}
+
+.right{
+    
+    overflow-x: hidden;
+}
+.right-contents{
+    overflow-x: hidden;
+}
+.photos{
+    overflow-x: hidden;
+}
+/*Playbar*/
+.main{
+    position: relative;
+}
+.playbar{
+    width:100%;
+    height:50px;
+    position:absolute;
+    bottom:0;
+    padding: 10px;
+    background-color: black;
+    display: flex;
+    
+}
+.songbuttons-ult{
+    width:50%;
+
+}
+.songbuttons{
+    width:100%;
+    height:40%;
+    display: flex;
+    justify-content: center;
+    gap:12px;
+}
+
+.prevsong{
+    filter:invert(0.8);
+    padding-top:10px;
+    width:20px;
+    height:20px;
+}
+.play{
+    width:40px;
+    height:40px;
+}
+.nextsong{
+    filter:invert(0.8);
+    padding-top:10px;
+    width:20px;
+    height:20px;
+}
+.shuffle{
+    filter:invert(0.8);
+    padding-top:10px;
+    width:20px;
+    height:20px;
+}
+.play img{
+    filter:invert(1);
+}
+.progressbar{
+    width:100%;
+    height:40%;
+    display: flex;
+}
+.current-time{
+    padding-right: 2%;
+    width:5%;
+}
+.mypbar{
+    width:80%;
+}
+.duration{
+    width:10%;
+}
+.playlists-onclick{
+    height:28%;
+    margin:0px 5px 0px 5px;
+    background-color:  #121212;
+    overflow-y:  auto;
+    display: none;
+    padding:3% 9%;
+}
+.no{
+    padding-left:3px;
+    margin-left:5px;
+    border:2px solid white;
+    border-radius: 7px ;
+    display: flex;
+}
+.first-1-song{
+    padding-left:3px;
+    margin-left:5px;
+    border:2px solid white;
+    border-radius: 7px ;
+    display: flex;
+}
+.no:hover{
+    cursor:pointer;
+}
+.songtxt{
+    width:80%;
+}
+.playbuttonft img{
+    width:30px;
+    height:30px;
+    filter: invert();
+}
+.songnme1{
+    font-size: 17px;
+}
+.songart1{
+    font-size:10px;
+    opacity:0.7;
+}
+.songnme2{
+    font-size: 17px;
+}
+.songart2{
+    font-size:10px;
+    opacity:0.7;
+}
+.songnme3{
+    font-size: 17px;
+}
+.songart3{
+    font-size:10px;
+    opacity:0.7;
+}
+.ranbir{
+    display: none;
+}
+.ranbir1{
+    display: none;
+}
+.ranbir2{
+    display: none;
+}
+.badshah1{
+    display: none;
+}
+.badshah{
+    display: none;
+}
+.shubh{
+    display:none;
+}
+.shubh1{
+    display:none;
+}
+.arijit{
+    display: none;
+}
+.moose{
+    display:none;
+}
+.moose1{
+    display: none;
+}
+.yaseer{
+    display: none;
+}
+.karan{
+    display:none;
+}
+.vishal{
+    display:none;
+}
+.songinfo{
+    width:30%;
+}
+.songnamepl{
+    margin:5px;
+    padding: 3% 9%;
+    width:100%;
+    height:100%;
+}
+.onplay{
+    width:70%;
+    height:50%;
+    font-size: 17px;
+}
+.artistonplay{
+    width:100%;
+    height:50%;
+    font-size: 12px;
+    opacity: 0.7;
+}
+.songinfo{
+    display:flex;
+}
+@media (max-width:1050px){
+    .main{
+        margin:0px;
+    }
+    .left{
+        display: none;
+    }
+    .right-contents{
+        margin:0px;
+    }
+    .right{
+        margin:0px;
+        width:100%;
+    }
+    .songinfo{
+        width:50%;
+    }
+    .current-time{
+        padding-right: 5%;
+        width:5%;
+    }
+    .pritam{
+        width:150px;
+        height:150px;
+    }
+    .pritam2{
+        width:125px;
+        height:100px;
+    }
+    .pritamp img{
+        border-radius: 7px;
+    }
+}
+@media (max-width:768px){
+    .right{
+        margin:none;
+    }
+    .left{
+        display: none;
+    }
+    .right{
+        width:100%;
+    }
+    .songinfo{
+        width:50%;
+    }
+    .current-time{
+        padding-right: 7%;
+        width:10%;
+    }
+    .onplay{
+        font-size: 12px;
+        font-weight: 400;
+    }
+}
+@media (max-width:500px){
+    .svg{
+        display: none;
+    }
+    .songnamepl{
+        width:45%;
+    }
+    .onplay{
+        width:100%;
+    }
+    .mypbar{
+        width:55%;
+    }
+    #mybar{
+        width:100%;
+    }
+}
